@@ -1,5 +1,3 @@
-Publishing teams often receive a high volume of manuscripts, and manually reading each submission to summarize, evaluate, and decide whether it’s suitable for review is time-consuming and inconsistent.
-
 # 📚 Automated Manuscript Screening Pipeline (n8n + OpenAI)
 
 ## 🔍 Problem Statement
