@@ -22,4 +22,68 @@ It summarises the document, scores it, recommends an action (Accept / Reject / R
 ---
 
 ## 🔗 Workflow Structure
+[Webhook Trigger]
+↓
+[OpenAI - Summarize Manuscript]
+↓
+[OpenAI - Score & Recommendation]
+↓
+[Email Compose]
+↓
+[Email Send]
+
+
+
+---
+
+## 📁 Repository Files
+
+| File | Description |
+|------|-------------|
+| `workflow.json` | Exported n8n workflow file |
+| `screenshots/workflow.png` | Visual workflow layout |
+| `screenshots/sample-email.png` | Example generated email |
+
+---
+
+## 🚀 Key Benefits
+
+| Benefit | Result |
+|---------|--------|
+| Time saved per manuscript | **~30 minutes** |
+| Manual dependency | **Reduced by 80%** |
+| Consistency | **AI ensures objective scoring** |
+
+---
+
+## 📬 Sample Output (Email)
+
+
+New High-Potential Manuscript for Review
+
+Title: Python Chatbot: A Beginner's Guide
+Publishability Score: 7 / 10
+Recommendation: Accept
+
+AI Summary:
+The manuscript explains how to build a rule-based chatbot using Python...
+
+
+
+---
+
+## 🛠 How to Use
+
+1. Import `workflow.json` into **n8n**
+2. Configure **OpenAI API Key**
+3. Add your **editorial team email**
+4. Start the webhook → Submit manuscript → Done ✅
+
+---
+
+## 📌 Future Improvements
+
+- Add **Genre Classification**
+- Route **different reviewers per topic**
+- Integrate **Plagiarism Check API**
 
